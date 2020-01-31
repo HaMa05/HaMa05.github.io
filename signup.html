@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Hotel, Hippo, Hotel in HaNoi City">
+    <link rel="stylesheet" href="css/styleSign.css">
+    <title>Hotel Hippo | Sign In</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">HIPPO</a></h1>
+                <a href="index.html"><img src="./img/logo4.png" alt=""></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a ></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="signin.html">Sign In</a></li>
+                    <li><a class ="current" href="signup.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="containerS">
+        <div class="form-wrap">
+            <h1 class="s">Sign Up</h1>
+            <p class="nd">It's free and only takes a minutes</p>
+            <form action="signuup.html" method="GET">
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="firstname" id="first-name">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="lastname" id="last-name">
+                </div>
+                <div class="form-group">
+                    <label for="name-account">Name Account</label>
+                    <input type="text" name="nameaccount" id="name-account" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="password_2">Confirm Password</label>
+                    <input type="password" name="password_2" id="password_2" required>
+                </div>
+                <button type="submit" class="btnS">Sign Up</button>
+                <p class="bottom-text">
+                    By click the Sign Up button, you agree to our
+                    <a class="link" href="#">Terms & Conditions</a> and
+                    <a class="link" href="#">Privacy Policy</a>
+                </p>
+            </form>
+        </div>
+        <footer>
+            <p class="nd">Already have an account? <a class="link"href="/signuup.html">Login here</a></p>
+        </footer>
+    </div>
+</body>
+</html>
